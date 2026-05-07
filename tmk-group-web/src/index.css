@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Georgia", "Cambria", "Times New Roman", Times, serif;
+  --font-sans: "Helvetica Neue", "Arial", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-brand-primary: #4F772D;
+  --color-brand-secondary: #90A955;
+  --color-brand-dark: #1B3022;
+  --color-brand-bg: #F8F9F5;
+  --color-brand-decor: #ECEDE9;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-dark;
+  }
+}
